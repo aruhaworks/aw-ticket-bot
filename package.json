@@ -1,0 +1,21 @@
+{
+  "name": "aw-ticket-bot",
+  "version": "1.0.0",
+  "description": "Professional Discord ticket system by ARUHAWORKS",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "deploy": "tsx src/deploy-commands.ts"
+  },
+  "dependencies": {
+    "discord.js": "^14.24.2",
+    "dotenv": "^17.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.9.2"
+  }
+}
